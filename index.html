@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OfficeDoc - Document Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>OfficeDoc</h1>
+        <p>Document Tracking System</p>
+    </header>
+
+    <main>
+
+        <section class="dashboard">
+
+            <div class="card">
+                <h3>Total Documents</h3>
+                <p id="totalDocuments">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Active</h3>
+                <p id="activeDocuments">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Expiring Soon</h3>
+                <p id="expiringDocuments">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Expired</h3>
+                <p id="expiredDocuments">0</p>
+            </div>
+
+        </section>
+
+        <section class="documents">
+
+            <div class="section-header">
+                <h2>Documents</h2>
+
+                <button id="addDocumentBtn">
+                    + Add Document
+                </button>
+            </div>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search documents..."
+            >
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Document Name</th>
+                        <th>Category</th>
+                        <th>Expiry Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="documentTable">
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
