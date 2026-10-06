@@ -1,0 +1,29 @@
+# OfficeDoc – Document Tracking System
+
+A simple and user-friendly web application for tracking office documents and their expiry dates.
+
+## 🌸 Features
+
+- Add and manage office documents
+- Track document expiry dates
+- Search documents quickly
+- View total, active, expiring, and expired documents
+- Simple and clean interface
+
+## 🛠️ Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+## 🚀 Live Demo
+
+https://shathaq13.github.io/office-doc/
+
+## 💻 Project
+
+This project was created as a personal portfolio project to practice front-end web development and build a practical office document management solution.
+
+## 👩🏻‍💻 Author
+
+Shatha Ali
